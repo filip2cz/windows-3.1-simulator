@@ -1,0 +1,99 @@
+
+
+body{
+    background-color:steelblue!important;
+    cursor: url(cursor.cur),auto;
+}
+.okno{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+}
+
+.prislusenstvi{
+    position: absolute;
+    top: 580px;
+    left: 200px;
+    z-index: 2;
+}
+.prislusenstvi-text{
+    position: absolute;
+    top: 645px;
+    left: 172px;
+    z-index: 3;
+}
+.hry{
+    position: absolute;
+    top: 580px;
+    left: 325px;
+    z-index: 2;
+}
+.hry-text{
+    position: absolute;
+    top: 645px;
+    left: 345px;
+    z-index: 2;
+}
+.hlavniskupina{
+    position: absolute;
+    top: 580px; 
+    left: 450px;
+    z-index: 2;
+}
+.hlavniskupina-text{
+    position: absolute;
+    top: 645px; 
+    left: 416px;
+    z-index: 2;
+}
+.soubor{
+    position: absolute;
+    top: 141px; 
+    left: 168px;
+    z-index: 2;
+}
+.minus{
+    position: absolute;
+    top: 103px; 
+    left: 155px;
+    z-index: 2;
+}
+.volitelne{
+    position: absolute;
+    top: 140px; 
+    left: 289px;
+    z-index: 2;
+}
+@font-face {
+    font-family: oldarial;
+    src: url("fsex300.ttf");
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+span{
+    font-family: oldarial;
+    font-size: 130%;
+}
+.office{
+    position: absolute;
+    top: 580px; 
+    left: 990px;
+    z-index: 2;
+    }
+.office-text{
+    position: absolute;
+    top:  645px; 
+    left: 995px;
+    z-index: 2;
+    }
+.url{
+    cursor: url(cursor.cur),auto;
+}

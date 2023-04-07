@@ -1,0 +1,40 @@
+.button {background-color: red;} 
+.button3 {background-color: #f44336;}  
+.button4 {background-color: #e7e7e7; color: black;}  
+.button5 {background-color: #555555;} 
+body{
+    background-color:steelblue!important;
+    cursor: url(cursor.cur),auto;
+}
+@font-face {
+    font-family: oldarial;
+    src: url("fsex300.ttf");
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+span{
+    font-family: oldarial;
+    font-size: 130%;
+}
+.url{
+    cursor: url(cursor.cur),auto;
+}
+.oknoold{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+}
+.okno2{
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    z-index: 2;
+}

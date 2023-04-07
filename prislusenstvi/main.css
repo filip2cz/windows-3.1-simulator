@@ -1,0 +1,140 @@
+
+
+body{
+    background-color:steelblue!important;
+}
+.okno{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+}
+
+.write{
+    position: absolute;
+    top: 250px;
+    left: 290px;
+    z-index: 2;
+}
+.writetext{
+    position: absolute;
+    top: 335px;
+    left: 300px;
+    z-index: 3;
+}
+
+.paint{
+    position: absolute;
+    top: 250px;
+    left: 430px;
+    z-index: 2;
+}
+.painttext{
+    position: absolute;
+    top: 335px;
+    left: 435px;
+    z-index: 3;
+}
+
+
+.blok{
+    position: absolute;
+    top: 250px;
+    left: 560px;
+    z-index: 2;
+}
+.bloktext{
+    position: absolute;
+    top: 335px;
+    left: 585px;
+    z-index: 3;
+}
+
+.diar{
+    position: absolute;
+    top: 250px;
+    left: 705px;
+    z-index: 2;
+}
+.diartext{
+    position: absolute;
+    top: 335px;
+    left: 725px;
+    z-index: 3;
+}
+
+.kalkulacka{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    z-index: 2;
+}
+.kalkulackatext{
+    position: absolute;
+    top: 335px;
+    left: 845px;
+    z-index: 3;
+}
+
+.hodiny{
+    position: absolute;
+    top: 370px;
+    left: 290px; 
+    z-index: 2;
+}
+.hodinytext{
+    position: absolute;
+    top: 450px;
+    left: 297px;
+    z-index: 3;
+}
+
+
+.zaznam{
+    position: absolute;
+    top: 370px;
+    left: 430px;
+    z-index: 2;
+}
+.zaznamtext{
+    position: absolute;
+    top: 450px;
+    left: 535px;
+    z-index: 3;
+}
+
+.zvuk{
+    position: absolute;
+    top: 370px;
+    left: 560px;
+    z-index: 2;
+}
+.zvuktext{
+    position: absolute;
+    top: 450px;
+    left: 445px;
+    z-index: 3;
+}
+@font-face {
+    font-family: oldarial;
+    src: url("fsex300.ttf");
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+span{
+    font-family: oldarial;
+    font-size: 130%;
+}
+.oknoprislusenstvi{
+    position: absolute;
+    top: 200px;
+    left: 260px;
+    z-index: 2 ;
+}
